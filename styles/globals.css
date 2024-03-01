@@ -1,0 +1,88 @@
+header {
+  background: url('/all/bg1.jpg');
+  background-attachment:fixed ;
+  background-size: 100% 100% ;
+  height: 100%;
+  
+}
+section {
+  background: url('/all/bg3.jpg');
+  background-attachment:fixed ;
+  background-size: 100% 100% ;
+  height: 100%;
+
+}
+main {
+  background: url('/all/bg.jpg');
+  background-attachment:fixed ;
+  background-size: 100% 100% ;
+  height: 100%;
+
+}
+main {
+  color: aliceblue;
+
+}
+
+
+
+
+.image-container {
+    position: relative;
+    width: 50%;
+    height: 300px;
+    padding-bottom: 56.25%;
+  }
+  .image {
+    objectFit: cover;
+  }
+
+
+  .topa {
+    display: flex;
+    overflow: hidden;
+    }
+
+    .topab {
+        display:block;
+    }
+    .topab img {
+      width: 50%;
+    }
+
+    .topimg {
+        display: flex;
+    }
+
+    .topimg img {
+        width: 25%;
+        margin: auto;
+    }
+
+    .pg {
+      display: flex;
+      color: aliceblue;
+    }
+
+    .web {
+      height: 100px;
+    }
+    .web img{
+      width: 10%;
+    }
+    .webx {
+      height: 100px;
+    }
+    .webx img{
+      width: 10%;
+    }
+
+
+    .w600 {
+      max-width: 950px;
+      margin: auto;
+    }
+
+    .w600 img{
+      width: 100%;
+    }
